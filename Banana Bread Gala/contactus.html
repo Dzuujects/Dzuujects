@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type= "text/css" href="contactccs2.css">
+        <title></title>
+        <link rel="icon" type="image/png" href="logo.png">
+    </head>
+
+<body>
+    <div class="banner">
+		<div class="navbar">
+			<img src="logo.png" class="logo">
+			<nav>
+			<ul>
+				<li><a href="homepage.html">HOME</a></li>
+				<li><a href="event.html">ABOUT GALA</a></li>
+				<li><a href="contactus.html">CONTACT US</a></li>
+				<button class="btnpup">REGISTER</button>
+			</ul>
+			</nav>
+		</div>
+
+		<div class="wrapper">
+
+			<span class="icon-close">
+				<ion-icon name="close"></ion-icon>
+			</span>
+	
+			<div class="register-form">
+				<h2>Register Here</h2>
+				<form action="gala.php" method="post">
+					<div class="input-box">
+						<input type="text" name="name" id="name" required>
+						<label for="name">Name</label>
+					</div>
+					<div class="input-box">
+						<input type="text" name="number" id="number" required>
+						<label for="number">Phone Number</label>
+					</div>
+					<div class="input-box">
+						<input type="text" name="email" id="email" required>
+						<label for="email">Email</label>
+					</div>
+					<div class="input-box">
+						<select id="tiers" name="tiers" id="tiers">
+							<option value="Bronze">Bronze</option>
+							<option value="Silver">Silver</option>
+							<option value="Platinum">Platinum</option>
+							<option value="Diamond">Diamond</option>
+						</select>
+						<label for="tier">Tier</label>
+					</div>
+					<div class="input-box">
+						<input type="number" name="noseat" id="noseat" required>
+						<label for="noseat">Number of seat</label>
+					</div>
+					<button type="submit" class="btn">Register</button>
+				</form>
+			</div>
+		</div>
+
+		
+        <div class="box">
+            <h1 style="color: black">Contact Us</h1>
+            <br>
+            <h2 style="color:#99764B">If you have any questions or concerns about the event, please contact us:</h2>
+            <br>
+            <h3 style="color: black"><ion-icon name="mail-outline"></ion-icon>EMAIL:</h3>
+            <a href="mailto:hareyzuu@gmail.com?subject=Concerns"; style="color:#99764B">galabread.query@gmail.com</a>
+            <br>
+            <br>
+            <br>
+            <h3 style="color: black"><ion-icon name="call-outline"></ion-icon>Numbers:</h3>
+            <p style="color:#99764B">Redmond - +60123456789</p>
+            <p style="color: #99764B">Marly - +60198765432</p>
+        </div>    
+    </div>
+    
+	<script src="script.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+</html>
