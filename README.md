@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Dzuujects - The Github repository for Dzuhair Hakimi.
 - 👀 I’m interested in Game Development and Design.
-- 🌱 I’m currently learning C# through Godot along with my Computer Science Degree at Heriot-Watt.
-- 📫 You can reach me via LinkedIn by searching "Dzuhair Hakimi".
+- 🌱 Currently udnertaking my Computer Science Degree at Heriot-Watt University.
+- 📫 You can reach me via LinkedIn @ https://www.linkedin.com/in/dzuhairhakimi/.
 
 <!---
 Dzuujects/Dzuujects is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
